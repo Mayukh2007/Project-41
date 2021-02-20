@@ -121,7 +121,7 @@ class Game{
                 clear();
                 fill("blue");
                 textSize(40);
-                text("GAME OVER!!!",350,300);
+                text("GAME OVER!!!"+player.name,350,300);
                console.log("Game Ended");
             }
         }
